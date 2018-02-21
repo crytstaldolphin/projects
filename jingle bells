@@ -1,0 +1,36 @@
+import jm.music.data.*;
+import jm.JMC;
+import jm.util.*;
+import jm.music.tools.*;
+
+
+public class Project{
+
+  private Score myScore = new Score("Jingle Bells");
+  
+  public Project() {
+    myScore.setTimeSignature(4,4);
+    
+    double[] line1Data = {
+      JMC.G4, JMC.QN, JMC.E4, JMC.QN, JMC.D4, JMC.QN, JMC.C4, JMC.QN,
+      JMC.G3, JMC.DHN, JMC.G3, JMC.DQN,
+      JMC.G3, JMC.QN, JMC.E4, JMC.QN, JMC.D4, JMC.QN, JMC.C4, JMC.QN,
+      JMC.A4, JMC.DHN, JMC.REST, JMC.REST,
+      JMC.A4, JMC.QN, JMC.F4, JMC.QN, JMC.E4, JMC.QN, JMC.D4, JMC.QN
+    };
+    
+    double[] line2Data = {
+      JMC.B4, JMC.DHN, JMC.REST, JMC.REST,
+      JMC.G4, JMC.QN, JMC.G4, JMC.QN, JMC.F4, JMC.QN, JMC.D4, JMC.QN,
+      JMC.E4, JMC.DHN, JMC.REST, JMC.REST,
+      JMC.G3, JMC.QN, JMC.E4, JMC.QN, JMC.D4, JMC.QN, JMC.C4, JMC.QN,
+      JMC.G3, JMC.DHN, JMC.REST, JMC.REST,
+      JMC.G3, JMC.QN, JMC.E4, JMC.QN, JMC.D4, JMC.QN, JMC.C4, JMC.QN
+    };
+
+  }
+  
+}
+    
+    
+                                      
